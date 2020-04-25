@@ -9,3 +9,7 @@ client:
 	java Client
 server:
 	java Server
+
+gui:
+	java ChatServer
+	java ChatGUI
