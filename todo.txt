@@ -1,0 +1,31 @@
+Todo
+*[DONE]need to implemet a side calling turn
+*[DONE]need to change turn() and printresults();mostly parameter call
+*change intro to include instructions for chat
+*[DONE]change all methods to not have scanner and not have parameter board, or scanner
+**[Mostly DONE]rewrite getInt() and turn() based on how the server and client will be handled for a turn
+(symbol: column number input)
+** : send board as a message and on other side will need toupdate their board
+*client/server
+*have client be able to have a name
+
+
+on client and server: need two modes (1 host, 2 host)
+if 2 host:
+when you send a message: check if it's a turn
+on your side: update board.
+on their side: they'll receive a message, check ifit's a choice, update their board.
+
+if 1 host:
+when 1 side inputs somethine, update board then
+when other side receives their choice, don't do anything
+
+-different hosts-done
+
+-buffering- cry
+	-while (1) is not really possible(?)
+	-threads is last option
+
+	other options:
+		-gui
+		-
